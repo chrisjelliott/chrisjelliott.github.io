@@ -1,0 +1,29 @@
+<!doctype html>
+<head>
+<title>Nekrasov Partition Function Learning Seminar</title>
+</head>
+
+<body>
+<h1>Learning Seminar on the Nekrasov Partition Function</h1>
+
+<p> This quarter (Winter 2015) I'm co-organising a learning seminar on the Nekrasov partition function with Philsang Yoo and Brian Williams.  Our eventual goal is to understand the paper <a href="http://arxiv.org/abs/hep-th/0206161">Seiberg Witten Prepotential from Instanton Counting</a> by Nekrasov, and some aspects of its sequel <a href="http://arxiv.org/abs/hep-th/0306238">Seiberg-Witten Theory and Random Partitions</a> by Nekrasov and Okounkov.  Along the way we hope to learn about the geometry of moduli spaces of instantons on a surface (for instance, how to compute its cohomology or equivariant cohomology, its natural compactifications, its relationship to Hilbert schemes), and about Seiberg-Witten theory. 
+
+<p> We'll meet once a week on <b>Tuesdays 2-4pm</b> In <b>Annenberg G31</b>.  We've prepared a rough outline on the material we plan to cover, with references, available <a href="plan.pdf">here</a>, and we plan on updating this with more references as we go.
+
+<h2>Schedule and Notes</h2>
+<b>January 13th</b>: Outline, and Introduction to N=2 Gauge Theories (<i>Chris</i>) <a href="N=2_Gauge_Theory.pdf">Notes</a> </br>
+<b>January 20th</b>: No Meeting </br>
+<b>January 27th</b>: <b>Meeting in Tech M349</b> Classical Seiberg-Witten Theory (<i>Brian</i>)</br>
+<b>February 3rd</b>: Equivariant Localization (<i>Peng</i>)</br>
+<b>February 10th</b>: Moduli of Instantons and the ADHM Construction (<i>Sean</i>) <a href="Hilbert_Schemes_of_Points.pdf">Notes</a> </br>
+<b>February 12th</b>: <b>2 to 4pm In University Hall 218</b> Compactifications of Instanton Moduli Space (<i>Matthew</i>) <a href="compactification-and-adhm.pdf">Notes</a> </br>
+<b>February 17th</b>: <b>Meeting in Tech M349</b> Twisting N=2 Theories (<i>Brian</i>) </br>
+<b>February 24th</b>: Seiberg-Witten Curves (<i>Phil</i>) </br>
+<b>March 3rd</b>: No Meeting</br>
+<b>March 10th</b>: The Nekrasov Partition Function and the Ω-Deformation (<i>Chris</i>)</br>
+
+
+<h2>Participants</h2>
+Chris Elliott, Aron Heleodoro, Theo Johnson-Freyd, Matthew Mahowald, Sean Pohorence, Josh Shadlen, Rebecca Wei, Brian Williams, Phil-Sang Yoo, Peng Zhou
+</body>
+</html>

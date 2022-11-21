@@ -1,0 +1,59 @@
+<!doctype html>
+<head>
+<title>S-Duality Learning Seminar</title>
+</head>
+
+<body>
+<h1>Learning Seminar on S-Duality</h1>
+
+<p>In the Spring Quarter at Northwestern we're running a learning seminar with
+the aim of understanding some ideas from S-duality in physics, with the 
+particular goal of understanding the relationship between observables that
+are interchanged in an interesting way under S-duality with more familiar
+objects in mathematics.
+
+<p>We'll meet twice a week, on <b>Tuesdays</b> at <b>2pm</b> and 
+<b>Thursdays</b> at <b>11am</b> in <b>Lunt 102</b>.
+
+<h2>Schedule</h2>
+<b>Tuesday April 2nd</b>: Introduction and Motivation (<i>Kevin, Chris</i>)</br>
+<b>Thursday April 4th</b>: <a href="Topological_twisting.pdf">Twisting Supersymmetric Field Theories</a> (<i>Chris</i>)</br>
+<b>Tuesday April 9th</b>: Twisting 2d Supersymmetric Sigma Models (<i>Peng</i>)</br>
+<b>Thursday April 11th</b>: Examples of Twisted Theories and Higgs Bundles (<i>Kevin</i>)</br>
+<b>Tuesday April 16th</b>: The Holomorphic Twist of N=4 SYM (<i>Phil</i>)</br>
+<b>Thursday April 18th</b>: Lagrangians for Twisted SUSY Yang-Mills (<i>Kevin</i>)</br>
+<b>Tuesday April 23rd</b>:<a href="Seiberg_Witten_Theory_-_Brian.pdf">Seiberg-Witten Theory</a> (<i>Brian</i>)</br>
+<b>Thursday April 25th</b>: <a href="Line_and_Surface_Operators.pdf">Line and Surface Operators</a> (<i>Chris</i>)</br>
+<b>Tuesday April 30th</b>: Recapitulation in Physics Notation I (<i>Eric</i>)</br>
+<b>Thursday May 2nd</b>: <a href="Hecke_Modifications_-_Aron.pdf">Hecke Modifications</a> (<i>Aron</i>)<br/>
+<b>Tuesday May 7th</b>: Recapitulation in Physics Notation II (<i>Eric</i>)</br>
+<b>Thursday May 9th</b>: Dimensional Reduction (<i>Phil</i>)</br>
+<b>Tuesday May 14th</b>: Hyperkahler Geometry of the Hitchin System (<i>Michael</i>)</br>
+<b>Thursday May 16th</b>: The P^1 of Topological twists of N=4 SYM (<i>Kevin</i>)</br>
+<b>Tuesday May 21st</b>: <a href="Cotangent_quantisation.pdf">The Phase Space and Cotangent Quantisation</a> (<i>Chris</i>)</br>
+<b>Thursday May 23rd</b>: Further Examples of Quantisation of Operators (<i>Kevin</i>)</br>
+<b>Tuesday May 28th</b>: Wilson Operators from the Atiyah-Segal Perspective (<i>Phil</i>) </br>
+<b>Thursday May 30th</b>: </br>
+
+<h2>References</h2>
+<ul>
+<li> Costello, <a href="http://arxiv.org/abs/1111.4234">Notes on Supersymmetric and Holomorphic Field Theories in Dimensions 2 and 4</a>
+<li> Costello, <a href="http://arxiv.org/abs/1303.2632">Supersymmetric Gauge Theory and the Yangian</a>
+<li> Donagi and Pantev, <a href="http://www.icmat.es/seminarios/langlands/school/handouts/pantev.pdf">Lectures on the Geometric Langlands Conjecture and Non-Abelian Hodge Theory</a>
+<li> Frenkel, <a href="http://arxiv.org/abs/hep-th/0512172">Lectures on the Langlands Program and Conformal Field Theory</a>
+<li> Gukov and Witten, <a href="http://arxiv.org/abs/hep-th/0612073">Gauge Theory, Ramification, and the Geometric Langlands Program</a>
+<li> Kapustin, <a href="http://www.icmat.es/seminarios/langlands/school/handouts/kapustin.pdf">Langlands Duality and Topological Field Theory</a>
+<li> Kapustin and Witten, <a href = "http://arxiv.org/abs/hep-th/0604151">Electric-Magnetic Duality and the Geometric Langlands Program</a>
+<li> Vafa and Witten, <a href="http://arxiv.org/abs/hep-th/9408074">A Strong Coupling Test of S-Duality</a>
+<li> Vonk, <a href="http://arxiv.org/abs/hep-th/0504147">A Mini-Course on Topological Strings</a>
+<li> Witten, <a href="http://arxiv.org/abs/0905.2720">Geometric Langlands from Six Dimensions</a>
+<li> Witten, <a href="Witten_Introduction_to_Cohomological_Field_Theories.pdf">Introduction to Cohomological Field Theories</a>
+<li> Witten, <a href="http://projecteuclid.org/DPubS?service=UI&version=1.0&verb=Display&handle=euclid.cmp/1104161738">Topological Quantum Field Theory</a>
+<li> Yamron, <a href="http://www.sciencedirect.com/science/article/pii/0370269388917698">Topological Actions from Twisted Supersymmetric Theories</a>
+</ul>
+
+<h2>Participants</h2>
+Kevin Costello, Michael Couch, Chris Elliott, Honghao Gao, Aron Heleodoro, Ian Le, Matt Mahowald, Yuan Shen, 
+Brian Williams, Phil-Sang Yoo, Peng Zhou, Eric Zaslow
+</body>
+</html>
