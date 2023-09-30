@@ -1,0 +1,2 @@
+User-agent: *
+Disallow: Twists_of_Superconformal_Algebras.pdf
