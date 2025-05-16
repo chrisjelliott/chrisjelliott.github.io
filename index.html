@@ -1,8 +1,8 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <head>
 <title>Chris Elliott</title>
-<meta name="description" content="Chris Elliott - UMass Amherst Mathematics Department">
-<meta name="keywords" content="Chris, Elliott, math, maths, mathematics, mathematician, UMass, Amherst">
+<meta name="description" content="Chris Elliott --- Mathematician">
+<meta name="keywords" content="Chris, Elliott, math, maths, mathematics, mathematician">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
@@ -82,6 +82,50 @@
 	</style>
 </head>
 
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const emailDisplay = document.querySelector('.email-display');
+    const user = document.querySelector('.email-user').textContent;
+    const domain = document.querySelector('.email-domain').textContent;
+    const tld = document.querySelector('.email-tld').textContent;
+    
+    document.querySelector('.email-separator').textContent = " @ ";
+    
+    emailDisplay.style.cursor = 'pointer';
+    
+    emailDisplay.addEventListener('click', function() {
+      const email = user + '@' + domain + tld;
+      window.location.href = 'mailto:' + email;
+    });
+    
+    emailDisplay.addEventListener('mouseenter', function() {
+      this.style.textDecoration = 'underline';
+      this.style.color = '#0066cc';
+    });
+    
+    emailDisplay.addEventListener('mouseleave', function() {
+      this.style.textDecoration = 'none';
+      this.style.color = '';
+    });
+  });
+</script>
+
+<style>
+  .email-display {
+    display: inline-block;
+    font-family: Arial, sans-serif;
+  }
+  
+    content: "";
+    display: none;
+  }
+  
+  .email-display::after {
+    content: "not-real" attr(class) "email";
+    display: none;
+  }
+</style>
+
 <body>
 
 <div class="all">
@@ -99,7 +143,9 @@
 <h1>Chris Elliott</h1>
 
 <p>
-<b>E-mail:</b> <a href="mailto:chris.elliott@cantab.net">chris.elliott@cantab.net</a><br />
+<b>E-mail:</b> <a href="javascript:void(0)" class="email-display">
+  <span class="email-user">chris.elliott</span><span class="email-separator"> [at] </span><span class="email-domain">cantab</span><span class="email-tld">.net</span>
+</a><br />
 <b>Google Scholar:</b><a href="https://scholar.google.com/citations?user=LyMto6kAAAAJ">https://scholar.google.com/citations?user=LyMto6kAAAAJ</a><br />
 <b>Linkedin:</b><a href="https://www.linkedin.com/in/chris-elliott-21a500230/">https://www.linkedin.com/in/chris-elliott-21a500230/</a><br />
 <b>Resume:</b> <a href="Chris_Elliott_Resume.pdf">Here</a><br />
