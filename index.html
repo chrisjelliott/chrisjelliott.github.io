@@ -84,28 +84,36 @@
 
 <script>
   document.addEventListener('DOMContentLoaded', function() {
-    const emailDisplay = document.querySelector('.email-display');
-    const user = document.querySelector('.email-user').textContent;
-    const domain = document.querySelector('.email-domain').textContent;
-    const tld = document.querySelector('.email-tld').textContent;
+    // Get all email display elements
+    const emailDisplays = document.querySelectorAll('.email-display');
     
-    document.querySelector('.email-separator').textContent = " @ ";
-    
-    emailDisplay.style.cursor = 'pointer';
-    
-    emailDisplay.addEventListener('click', function() {
-      const email = user + '@' + domain + tld;
-      window.location.href = 'mailto:' + email;
-    });
-    
-    emailDisplay.addEventListener('mouseenter', function() {
-      this.style.textDecoration = 'underline';
-      this.style.color = '#0066cc';
-    });
-    
-    emailDisplay.addEventListener('mouseleave', function() {
-      this.style.textDecoration = 'none';
-      this.style.color = '';
+    emailDisplays.forEach(function(emailDisplay) {
+      const user = emailDisplay.querySelector('.email-user').textContent;
+      const domain = emailDisplay.querySelector('.email-domain').textContent;
+      const tld = emailDisplay.querySelector('.email-tld').textContent;
+      
+      // Update the separator text
+      emailDisplay.querySelector('.email-separator').textContent = " @ ";
+      
+      // Set cursor style
+      emailDisplay.style.cursor = 'pointer';
+      
+      // Add click event listener
+      emailDisplay.addEventListener('click', function() {
+        const email = user + '@' + domain + tld;
+        window.location.href = 'mailto:' + email;
+      });
+      
+      // Add hover effects
+      emailDisplay.addEventListener('mouseenter', function() {
+        this.style.textDecoration = 'underline';
+        this.style.color = '#0066cc';
+      });
+      
+      emailDisplay.addEventListener('mouseleave', function() {
+        this.style.textDecoration = 'none';
+        this.style.color = '';
+      });
     });
   });
 </script>
@@ -137,14 +145,16 @@
 </div>
 </div>
 
-
 <div class="text">
 
 <h1>Chris Elliott</h1>
 
 <p>
-<b>E-mail:</b> <a href="javascript:void(0)" class="email-display">
+<b>Personal E-mail:</b> <a href="javascript:void(0)" class="email-display">
   <span class="email-user">chris.elliott</span><span class="email-separator"> [at] </span><span class="email-domain">cantab</span><span class="email-tld">.net</span>
+</a><br />
+<b>Work E-mail:</b> <a href="javascript:void(0)" class="email-display">
+  <span class="email-user">chris</span><span class="email-separator"> [at] </span><span class="email-domain">timaeus</span><span class="email-tld">.co</span>
 </a><br />
 <b>Google Scholar:</b><a href="https://scholar.google.com/citations?user=LyMto6kAAAAJ">https://scholar.google.com/citations?user=LyMto6kAAAAJ</a><br />
 <b>Linkedin:</b><a href="https://www.linkedin.com/in/chris-elliott-21a500230/">https://www.linkedin.com/in/chris-elliott-21a500230/</a><br />
@@ -153,7 +163,7 @@
 <br /> <br /> 
 
 
-<p><br />I am a mathematician, formerly working as an academic and -- starting in 2025 -- working in industry on neural network alignment.  My mathematical background in academia involved the interactions between geometry, topology and mathematical physics, especially:
+<p><br />I am a mathematician, formerly working as an academic and -- as of June 2025 -- working at <a href="https://timaeus.co">Timaeus</a> on neural network alignment.  I previously worked at Amherst College (2022-2025), the University of Massachusetts at Amherst (2019-2022), the IHÉS (2016-2019), and as a PhD student at Northwestern University (2010-2016).  My mathematical background in academia involved the interactions between geometry, topology and mathematical physics, especially:
 
 <p><br /><ul>
 <li> Mathematical constructions of observables in quantum field theory (factorization algebras, E_n algebras).
